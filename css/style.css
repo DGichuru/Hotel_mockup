@@ -84,7 +84,7 @@ nav ul li a {
     text-transform: uppercase;
     letter-spacing: 0.5em;
     transition: all 0.2s cubic-bezier(.4,0,.2,1);
-    margin-left: 29%;
+    margin-left: 25%;
   
    
   }
@@ -254,6 +254,61 @@ padding: 70px 30px;
   width: 80%;
   margin: auto;
   padding-top: 50px;
+ 
 
 
+}
+.location h1{
+  font-family: 'Sofia', sans-serif;
+
+}
+
+/*footer*/
+.footer {
+  width: 100%;
+  text-align: center;
+  background: #FEB1C0;
+}
+.footer h4 {
+  font-weight: bold;
+  margin-top: 5px;
+  text-align: left;
+  margin-left: 40px;
+  margin-bottom: 5px;
+}
+.footer p {
+  text-align: justify;
+  color: rgb(27, 27, 27);
+  margin-left: 20px;
+}
+.copyright p {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-style: oblique;
+}
+.aboutcolumn {
+  flex-basis: 30%;
+}
+.aboutcolumn ul li {
+  text-align: left;
+}
+.aboutcolumn ul li a {
+  padding: 0 20px;
+  color: #f0f3fa;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: inherit;
+  font-family: "Teko", sans-serif;
+  font-weight: 400;
+  display: block;
+  margin-left: 20px;
+}
+.icons .fab {
+  color: #d84343;
+  display: inline-block;
+  cursor: pointer;
+  padding: 25px;
+  margin-top: 50px;
+  margin-right: 2px;
 }

@@ -248,3 +248,12 @@ box-sizing: border-box;
 padding: 70px 30px;
 
 }
+
+.location {
+  height: 80vh;
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+
+
+}

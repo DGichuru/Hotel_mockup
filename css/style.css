@@ -3,6 +3,7 @@
       flex-direction: column;
     }
   }
+  
 body{
  margin: 0;
  padding: 0;
@@ -16,7 +17,6 @@ body{
   background-image: fixed;
   background-position: center; 
   height: 80vh;
-  width: 80%;
   margin: auto;
   border-radius: 10px;
 
@@ -250,7 +250,7 @@ padding: 70px 30px;
 }
 
 .location {
-  height: 80vh;
+  height: 54.5vh;
   width: 80%;
   margin: auto;
   padding-top: 50px;
@@ -259,7 +259,9 @@ padding: 70px 30px;
 
 }
 .location h1{
-  font-family: 'Sofia', sans-serif;
+  background-color:#FEB1C0;
+  border-radius: 10px;
+  text-align: center;
 
 }
 
@@ -268,7 +270,8 @@ padding: 70px 30px;
   width: 100%;
   text-align: center;
   background: #FEB1C0;
-}
+  margin-top: none;
+  }
 .footer h4 {
   font-weight: bold;
   margin-top: 5px;
@@ -290,20 +293,7 @@ padding: 70px 30px;
 .aboutcolumn {
   flex-basis: 30%;
 }
-.aboutcolumn ul li {
-  text-align: left;
-}
-.aboutcolumn ul li a {
-  padding: 0 20px;
-  color: #f0f3fa;
-  text-decoration: none;
-  font-size: 20px;
-  text-transform: inherit;
-  font-family: "Teko", sans-serif;
-  font-weight: 400;
-  display: block;
-  margin-left: 20px;
-}
+
 .icons .fab {
   color: #d84343;
   display: inline-block;

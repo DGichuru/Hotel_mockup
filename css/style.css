@@ -18,6 +18,11 @@ body{
   border-radius: 10px;
   
 }
+.head h2{
+  font-family: 'Sofia', sans-serif;
+  color: #fff;
+
+}
 .header {
     
   background-size: cover;
@@ -107,6 +112,7 @@ nav ul li a {
     margin: auto;
     padding-top: 80px;
     text-align: center;
+
   }
   h1 {
     font-size: 36px;
@@ -114,10 +120,13 @@ nav ul li a {
   }
   p {
     line-height: 22px;
-    color: black;
+    color: white;
     font-weight: 300;
     font-size: 14px;
     padding: 5px;
+  }
+  .about h3{
+    color: #fff;
   }
   .row {
     margin-top: 5%;
@@ -131,14 +140,28 @@ nav ul li a {
     margin-bottom: 5%;
     margin-top: 7px;
     transition: 0.5s;
+    text-decoration-color:#fff;
+
   }
+  
   h3 {
     text-align: center;
-    font-weight: 600;
     margin: 10px 0;
   }
   .about-col:hover {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+  }
+  #breakfast {
+    background-image: url("../assets/breakfast.jpg");
+    
+  }
+  #lunch {
+    background-image: url("../assets/lunch.jpg");
+    
+  }
+  #dinner {
+    background-image: url("../assets/dinner.jpg");
+    
   }
   @media (max-width: 700px) {
     .row {

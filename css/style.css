@@ -10,9 +10,16 @@ body{
  overflow: auto;
  
 }
+.head {
+  width: 100%;
+  text-align: center;
+  background: #e5542b;
+  height: 15vh;
+  border-radius: 10px;
+  
+}
 .header {
     
-  background-image: url("../assets/landing.jpg");
   background-size: cover;
   background-image: fixed;
   background-position: center; 
@@ -34,6 +41,10 @@ body{
 nav {
     flex: 1;
     text-align: center;
+    padding-top: 5px;
+    
+    
+
 }
 
 nav ul li {
@@ -59,13 +70,15 @@ nav ul li a {
     color: #fff;
     font-size: 80px;    
 }
-.info {
+
+/*.info_data {
     top:25%;
     left: 35%;
     position: absolute;
     font-family: 'Sofia', sans-serif;
     
-}
+}*/
+
 #hello:hover {
     letter-spacing: 0.8em;
     background-color: #F08C99;
@@ -238,7 +251,7 @@ nav ul li a {
 }
 
 .book_info {
-  width: 600px;
+width: 600px;
 height: 540px;
 color: #fff;
 left: 210%;
@@ -264,13 +277,30 @@ padding: 70px 30px;
   text-align: center;
 
 }
+.map-responsive{
+
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+
+}
+
+.map-responsive iframe{
+
+  left:0;
+  top:0;
+  width:100%;
+  position:absolute;
+
+}
 
 /*footer*/
 .footer {
   width: 100%;
   text-align: center;
   background: #FEB1C0;
-  margin-top: none;
+ 
   }
 .footer h4 {
   font-weight: bold;

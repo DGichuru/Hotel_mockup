@@ -76,13 +76,16 @@ nav ul li a {
     font-size: 80px;    
 }
 
-/*.info_data {
+.info_data {
     top:25%;
     left: 35%;
+    color: white;
     position: absolute;
     font-family: 'Sofia', sans-serif;
+    text-align: center;
+    font-size: 50px;
     
-}*/
+}
 
 #hello:hover {
     letter-spacing: 0.8em;
@@ -108,10 +111,16 @@ nav ul li a {
   }
 
   .about {
-    width: 80%;
+    width: 100%;
     margin: auto;
     padding-top: 80px;
     text-align: center;
+    background-image: url("../assets/fastFood1.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 50vh;
+    border-radius: 10px;
 
   }
   h1 {
@@ -141,6 +150,7 @@ nav ul li a {
     margin-top: 7px;
     transition: 0.5s;
     text-decoration-color:#fff;
+    background-size: cover;
 
   }
   
@@ -153,14 +163,16 @@ nav ul li a {
   }
   #breakfast {
     background-image: url("../assets/breakfast.jpg");
-    
+    background-size: cover;
   }
   #lunch {
     background-image: url("../assets/lunch.jpg");
+    background-size: cover;
     
   }
   #dinner {
     background-image: url("../assets/dinner.jpg");
+    background-size: cover;
     
   }
   @media (max-width: 700px) {
@@ -211,13 +223,14 @@ nav ul li a {
 
   .loginbox {
     width: 320px;
-    height: 540px;
+    height: 570px;
     background: #000;
     color: #fff;
     left: 30%;
     position: absolute;
     transform: translate(-50%, -50%);
     box-sizing: border-box;
+    border-radius: 10px;
     padding: 70px 30px;
     box-shadow: 11px 14px 17px -1px rgba(0,0,0,0.75);
     -webkit-box-shadow: 11px 14px 17px -1px rgba(0,0,0,0.75);
@@ -272,6 +285,10 @@ nav ul li a {
   background: aqua;
   color: #000;
 }
+.formbox{
+  display: block;
+  width: 100%;
+}
 
 .book_info {
 width: 600px;
@@ -295,7 +312,7 @@ padding: 70px 30px;
 
 }
 .location h1{
-  background-color:#FEB1C0;
+  background-color:#e5542b;;
   border-radius: 10px;
   text-align: center;
 
@@ -322,7 +339,7 @@ padding: 70px 30px;
 .footer {
   width: 100%;
   text-align: center;
-  background: #FEB1C0;
+  background: #e5542b;
  
   }
 .footer h4 {
@@ -341,6 +358,7 @@ padding: 70px 30px;
   color: rgb(0, 0, 0);
   text-align: center;
   font-family: "Courier New", Courier, monospace;
+
   font-style: oblique;
 }
 .aboutcolumn {
@@ -348,10 +366,11 @@ padding: 70px 30px;
 }
 
 .icons .fab {
-  color: #d84343;
+  color: #fff;
   display: inline-block;
   cursor: pointer;
   padding: 25px;
   margin-top: 50px;
   margin-right: 2px;
 }
+

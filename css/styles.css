@@ -1,116 +1,31 @@
-@media (max-width: 700px) {
-    .row {
-      flex-direction: column;
-    }
-  }
   
 body{
- margin: 0;
- padding: 0;
-overflow-x: hidden; 
-height: fit-content;
-position: relative;
-min-height: 100%;
+    margin: 0;
+    padding: 0;
+   overflow-x: hidden; 
+   height: fit-content;
+   position: relative;
+   min-height: 100%;
+   
+   }
 
-}
-.head {
-  width: 100%;
-  text-align: center;
-  background: #e5542b;
-  height: 15vh;
-  border-radius: 10px;
-}
-.head h2{
-  font-family: 'Sofia', sans-serif;
-  color: #fff;
-  text-align: center;
-
-}
-.header {
-    
-  background-size: cover;
-  background-image: fixed;
-  background-position: center; 
-  height: 80vh;
-  margin: auto;
-  border-radius: 10px;
-
-}
 .logo {
     width: 90px;
     height: 90px;
-    border-radius: 50%;
+    border-radius: 30%;
      
 
 }
-
-nav {
-    flex: 1;
-    text-align: center;
-    padding-top: 5px;
-    position: absolute;
-    
-}
-
-nav ul li {
-    list-style: none;
-    display: inline-block;
-    margin-left: 60px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 23px;
-    font-family: "Teko", sans-serif;
-}
-
-.navbar {
-    padding-top: 15px;
-    height: 12px;
-    justify-content: space-between;
-}
-
-.header h1{
-    color: #fff;
-    font-size: 80px;    
-}
-
-.info_data {
-    top:25%;
-    left: 35%;
-    color: white;
-    position: absolute;
-    font-family: 'Sofia', sans-serif;
-    text-align: center;
-    font-size: 50px;
-    
-}
-
-#hello:hover {
-    letter-spacing: 0.8em;
-    background-color: #F08C99;
-  }
+#navbar {
+  background: #e5542b;
   
-  #hello {
-    color: white;
-  }
-  button {
-    height: 4em;
-    width: auto;
-    padding: 1.5em auto;
-    background-color: #FEB1C0;
-    border: none;
-    border-radius: 3px;
-    text-transform: uppercase;
-    letter-spacing: 0.5em;
-    transition: all 0.2s cubic-bezier(.4,0,.2,1);
-    margin-left: 25%;
-  
-   
-  }
+}
 
-  .about {
+#nav ul li a {
+    color: #fff;
+}
+
+.about {
     width: 100%;
     margin: auto;
     padding-top: 80px;
@@ -212,18 +127,22 @@ nav ul li a {
   .booking {
     width: 80%;
     text-align: center;
+    overflow: auto;
     margin: auto;
-    padding-top: 400px;
-    height: 50vh;
+    padding-bottom: 480px;
+    padding-top: 460px;
+    height: fit-content;
     background-image:  linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7) ),url(../assets/booking.jpg);
     background-position: fixed;
     background-size: cover;
     background-repeat: no-repeat;
+    
+
   }
 
   .loginbox {
     width: 320px;
-    height: 570px;
+    height: 800px;
     background: #000;
     color: #fff;
     left: 30%;
@@ -382,5 +301,3 @@ padding: 70px 30px;
   margin-top: 50px;
   margin-right: 2px;
 }
-
-

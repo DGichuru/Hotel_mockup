@@ -101,6 +101,7 @@ body{
     text-align: center;
     margin: auto;
     padding-top: 75px;
+    background-color:whitesmoke;
   }
   .facilities-col {
     flex-basis: 31%;
